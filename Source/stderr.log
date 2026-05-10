@@ -1,0 +1,5 @@
+2026-05-10 09:45:29,237 - __main__ - INFO - Initialized in-memory storage
+2026-05-10 09:45:29,248 - __main__ - INFO - Initialized Broadcaster
+2026-05-10 09:45:29,250 - server.tcp_ingest - INFO - TCP ingest server listening on 127.0.0.1:9000
+2026-05-10 09:45:29,252 - __main__ - INFO - Started TCP ingest server on 127.0.0.1:9000
+2026-05-10 09:45:29,255 - __main__ - INFO - Started REST API server on http://127.0.0.1:8000

@@ -1,0 +1,28 @@
+# Sample sensor configuration
+# Loaded by the sensor simulator (client/) at startup.
+
+server:
+  host: 127.0.0.1
+  port: 9000
+
+sensors:
+  - id: sensor-001
+    type: temperature
+    interval_seconds: 5.0
+    min_value: -10.0
+    max_value: 40.0
+    drift_rate: 0.1
+
+  - id: sensor-002
+    type: humidity
+    interval_seconds: 5.0
+    min_value: 0.0
+    max_value: 100.0
+    drift_rate: 0.05
+
+  - id: sensor-003
+    type: soil_moisture
+    interval_seconds: 10.0
+    min_value: 0.0
+    max_value: 100.0
+    drift_rate: 0.02
